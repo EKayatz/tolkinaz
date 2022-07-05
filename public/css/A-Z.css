@@ -1,0 +1,92 @@
+/* SuchLeiste */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.head {
+  color: #720b0c;
+  font-size: 1.25rem;
+}
+
+.controll {
+  text-align: left;
+}
+
+.search {
+  text-align: right;
+}
+
+.Axess {
+  font-size: 0.8rem;
+}
+
+.search-con {
+  padding-right: 2rem;
+}
+
+.lupe {
+  line-height: 32px;
+  padding-left: 0.5rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.list {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  text-align: left;
+}
+
+.champs {
+  display: flex;
+  border: 2px solid #282f39;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.listtext {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.champ-img {
+  width: 90px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    background-size: contain, cover;
+  }
+  .right-side {
+    text-align: center;
+  }
+  .search-con {
+    margin-bottom: 1rem;
+  }
+  .left-side {
+    text-align: center;
+  }
+  .controll {
+    text-align: left;
+    padding-left: 1rem;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}

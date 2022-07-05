@@ -1,0 +1,123 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+}
+
+.champs__list__container .champs__stats {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  border-radius: 5px;
+  padding: 0.5rem;
+  max-width: 80%;
+  justify-content: space-between;
+}
+
+.champs__list__container .champs__champstats {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  max-width: 80%;
+  justify-content: space-between;
+}
+.champs__list__container .champs__champstatsmaster {
+  display: flex;
+  max-width: 80%;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.champs__list__container .champs__socialchampstats {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  flex-direction: column;
+  text-align: center;
+}
+.champs__list__container .champs__socialchampstatsmaster {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  justify-content: flex-start;
+}
+
+.champs__list__container .champs__statstitle {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.champs__list__container .champs__champstitle {
+  text-align: center;
+}
+.champs__list__container .champs__statstries {
+  word-spacing: 0.75em;
+  border-spacing: 1rem;
+  display: flex;
+  max-width: 80%;
+  justify-content: flex-start;
+}
+.champs__list__container .champs__lists {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  border: 2px solid #282f39;
+  border-radius: 5px;
+  padding: 0.5rem;
+  max-width: 80%;
+  justify-content: flex-start;
+}
+.home__social-link {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+@media screen and (max-width: 991px) {
+  .champs__list__container .champs__lists {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.champs__list__container .champs__title {
+  min-width: 200px;
+  margin-left: 10rem;
+  flex: 1;
+}
+.champs__list__container .champs__desc {
+  min-width: 200px;
+}
+.champs__list__container .champs__date {
+  min-width: 200px;
+  margin-left: 3rem;
+}
+.champs__list__container .champs__desccard {
+  word-spacing: 0.75em;
+  min-width: 200px;
+}
+.champs__list__container .champs__datecard {
+  word-spacing: 0.75em;
+  min-width: 200px;
+  margin-left: 3rem;
+}
+@media screen and (max-width: 991px) {
+  .champs__list__container .champs__title,
+  .champs__list__container .champs__desc,
+  .champs__list__container .champs__date {
+    margin-left: unset;
+    margin-right: unset !important;
+    min-width: unset;
+    text-align: center;
+    flex: unset;
+  }
+}
+.champs__list__container .champs__image {
+  width: 90px;
+}
+.champs__list__container .champs__image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.champs__list__container .champs__date {
+  margin-right: 2rem;
+}
